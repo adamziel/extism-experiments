@@ -1,0 +1,20 @@
+{
+  "name": "extism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun bin/build.js --serve"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@extism/extism": "^1.0.3",
+    "concurrently": "^8.2.2",
+    "esbuild": "^0.21.5",
+    "esbuild-serve": "^1.0.1",
+    "install": "^0.13.0"
+  }
+}
